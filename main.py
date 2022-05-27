@@ -1,7 +1,7 @@
 import random
 from simple_term_menu import TerminalMenu
 
-class wins:
+class Wins:
     def __init__(self, computer_wins, user_wins):
             self.computer_wins = computer_wins
             self.user_wins = user_wins
