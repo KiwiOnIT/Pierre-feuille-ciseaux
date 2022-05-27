@@ -1,7 +1,7 @@
 import random
 from simple_term_menu import TerminalMenu
 
-class Test:
+class wins:
     def __init__(self, computer_wins, user_wins):
             self.computer_wins = computer_wins
             self.user_wins = user_wins
@@ -48,7 +48,7 @@ class Test:
             print('______________________________________')
             self.computer_wins += 1
 
-launch = Test(0, 0)
+launch = Wins(0, 0)
 
 while True:
     launch.choice()
